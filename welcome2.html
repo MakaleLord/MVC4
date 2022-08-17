@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% set page_title="My Blog" %}
+
+{% block content %}
+    <div class="about-container">
+        <div class="about-content">
+            <h2>Welcome to the Codewizards blog</h2>
+            <p>Fun fact: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <a class="button" href="{{url_for('home_page')}}">Back to blog</a>
+        </div>
+    </div>
+{% endblock %}
+<script type="application/javascript" src="/share.js"></script>
